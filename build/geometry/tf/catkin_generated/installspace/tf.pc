@@ -1,0 +1,8 @@
+prefix=/home/jay/ros/install
+
+Name: tf
+Description: Description of tf
+Version: 1.11.4
+Cflags: -I/home/jay/ros/install/include
+Libs: -L/home/jay/ros/install/lib -ltf
+Requires: geometry_msgs message_filters message_runtime roscpp sensor_msgs std_msgs tf2_ros rosconsole

@@ -1,0 +1,8 @@
+prefix=/home/jay/ros/install
+
+Name: tf_conversions
+Description: Description of tf_conversions
+Version: 1.11.4
+Cflags: -I/home/jay/ros/install/include -I/usr/include/eigen3 -I/opt/ros/indigo/include
+Libs: -L/home/jay/ros/install/lib -ltf_conversions -l:/opt/ros/indigo/lib/liborocos-kdl.so.1.3.0
+Requires: geometry_msgs kdl_conversions tf
